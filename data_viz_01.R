@@ -59,3 +59,11 @@ nice_scatter(data = mtcars,
              has.confband = TRUE,
              has.r = TRUE,
              has.p = TRUE)
+
+nice_scatter(
+  data = mtcars,
+  predictor = "wt",
+  response = "mpg",
+  group = "cyl",
+  has.confband = TRUE
+)
